@@ -1,0 +1,19 @@
+Na questão há Duas Listas encadeadas cuja funcão do método citado é a de replicar os Elementos da Lista L na Lista Q,
+Porém ao final da Execução, o Ultimo Elemento da Lista L passará a Ser o Primeiro da Lista Q e os demais Elementos
+Permanecerão na mesma Ordem Porém com Suas Posições alteradas em i+1 (Uma posição a mais)
+
+EXEMPLO:
+
+Suponhamos que tenhamos as Seguinte Listas:
+
+L = |10| |8| |5| |4| |6|
+Loop I
+Q = |10| || || || ||
+Loop II
+Q = |8| |10| || || ||
+Loop III
+Q = |5| |10| |8| || ||
+Loop IV
+Q = |4| |10| |8| |5| ||
+Loop V
+Q = |6| |10| |8| |5| |4|
